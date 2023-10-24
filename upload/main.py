@@ -92,7 +92,8 @@ class testwindow(QtWidgets.QMainWindow,Ui_MainWindow):
 
     def compute_suggest(self): 
         if self.selected_item == "陶笛": 
-            if self.dic[self.max] - self.dic[self.min] > 10: 
+            # if self.dic[self.max] - self.dic[self.min] > 10: 
+            if self.dic[self.max] - self.dic[self.min] > 11: 
                 ss = "\n音域跨度太大"
             else: 
                 # left = self.dic[self.min] - self.dic["1"]
@@ -100,7 +101,8 @@ class testwindow(QtWidgets.QMainWindow,Ui_MainWindow):
                 # self.min_key = self.dic[".3"] - self.dic[self.min]
                 # self.max_key = self.dic["3."] - self.dic[self.max]
                 self.min_key = 1 - self.dic[self.min]
-                self.max_key = 11 - self.dic[self.max]
+                # self.max_key = 11 - self.dic[self.max]
+                self.max_key = 12 - self.dic[self.max]
                 # self.min_key = min(left, right)
                 # self.max_key = max(left, right)
                 # self.max_key = self.dic[".3"] + (10 - (self.dic[self.max] - self.dic[self.min]))

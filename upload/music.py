@@ -84,18 +84,33 @@ dic = {
 dic = update(dic)
 
 
+# dic_td = {
+#     1: "oooooo q", 
+#     2: "oxoooo  ", 
+#     3: "oooxoo  ", 
+#     4: "oxoxoo  ", 
+#     5: "xxoooo  ", 
+#     6: "xxoxoo  ", 
+#     7: "xxxooo  ", 
+#     8: "xxxxoo  ", 
+#     9: "xxxxox  ", 
+#     10: "xxxxxx  ", 
+#     11: "xxxxxx z"
+# }
+
 dic_td = {
     1: "oooooo q", 
-    2: "oxoooo  ", 
-    3: "oooxoo  ", 
-    4: "oxoxoo  ", 
-    5: "xxoooo  ", 
-    6: "xxoxoo  ", 
-    7: "xxxooo  ", 
-    8: "xxxxoo  ", 
-    9: "xxxxox  ", 
-    10: "xxxxxx  ", 
-    11: "xxxxxx z"
+    2: "oooooo  ", 
+    3: "oxoooo  ", 
+    4: "oooxoo  ", 
+    5: "oxoxoo  ", 
+    6: "xxoooo  ", 
+    7: "xxoxoo  ", 
+    8: "xxxooo  ", 
+    9: "xxxxoo  ", 
+    10: "xxxxox  ", 
+    11: "xxxxxx  ", 
+    12: "xxxxxx z"
 }
 
 # change_num = 3
