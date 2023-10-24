@@ -10,7 +10,7 @@
 1、点击main.exe文件  
 2、cmd命令行  
 ```
-cd ./upload
+cd ./convert/upload
 python main.py
 ```
 
